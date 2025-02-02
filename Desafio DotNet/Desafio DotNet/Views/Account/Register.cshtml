@@ -1,0 +1,139 @@
+﻿@page
+@using Desafio_DotNet.Models.ViewModels
+@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "Registrar";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Register" method="post">
+    <div class="form-group">
+        <label asp-for="NomeCompleto">Nome Completo</label>
+        <input asp-for="NomeCompleto" class="form-control" />
+        <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password">Senha</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ConfirmPassword">Confirmar Senha</label>
+        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+
+<p>
+    <a asp-action="Login">Já tem uma conta? Entre aqui</a>
+</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+3️⃣ Habilitar Validação no Client-side
+Para garantir que as validações funcionem no lado do cliente, você deve ter a partial _ValidationScriptsPartial no seu projeto. O Visual Studio automaticamente cria esse arquivo, mas caso não tenha, siga os seguintes passos:
+
+Na pasta Views/Shared/, crie um arquivo chamado _ValidationScriptsPartial.cshtml.
+Dentro desse arquivo, adicione o seguinte código:
+html
+Copiar
+Editar
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.validate.unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+4️⃣ Configurar o AccountController
+No seu AccountController.cs, adicione os métodos de Login e Register para lidar com as views que você acabou de criar. O código do AccountController já foi explicado anteriormente, mas vou repeti-lo aqui para ficar mais claro:
+
+csharp
+Copiar
+Editar
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using SeuProjeto.Models;
+using System.Threading.Tasks;
+
+public class AccountController : Controller
+{
+    private readonly UserManager<User>
+    _userManager;
+    private readonly SignInManager<User>
+        _signInManager;
+
+        public AccountController(UserManager<User>
+            userManager, SignInManager<User>
+                signInManager)
+                {
+                _userManager = userManager;
+                _signInManager = signInManager;
+                }
+
+                // Login GET
+                public IActionResult Login() => View();
+
+                // Login POST
+                [HttpPost]
+                public async Task<IActionResult>
+                    Login(LoginViewModel model)
+                    {
+                    if (!ModelState.IsValid)
+                    return View(model);
+
+                    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                    if (result.Succeeded)
+                    return RedirectToAction("Index", "Tarefa");
+
+                    ModelState.AddModelError("", "Login inválido.");
+                    return View(model);
+                    }
+
+                    // Register GET
+                    public IActionResult Register() => View();
+
+                    // Register POST
+                    [HttpPost]
+                    public async Task<IActionResult>
+                        Register(RegisterViewModel model)
+                        {
+                        if (!ModelState.IsValid)
+                        return View(model);
+
+                        var user = new User { UserName = model.Email, Email = model.Email, NomeCompleto = model.NomeCompleto };
+                        var result = await _userManager.CreateAsync(user, model.Password);
+
+                        if (result.Succeeded)
+                        {
+                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        return RedirectToAction("Index", "Tarefa");
+                        }
+
+                        foreach (var error in result.Errors)
+                        ModelState.AddModelError("", error.Description);
+
+                        return View(model);
+                        }
+
+                        // Logout
+                        public async Task<IActionResult>
+                            Logout()
+                            {
+                            await _signInManager.SignOutAsync();
+                            return RedirectToAction("Login");
+                            }
+                            }

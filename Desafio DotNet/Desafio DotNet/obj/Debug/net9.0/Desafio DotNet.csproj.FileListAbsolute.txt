@@ -1,0 +1,182 @@
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\appsettings.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.staticwebassets.runtime.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.staticwebassets.endpoints.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.exe
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.deps.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.runtimeconfig.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Desafio DotNet.pdb
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.csproj.AssemblyReference.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.AssemblyInfoInputs.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.AssemblyInfo.cs
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.csproj.CoreCompileInputs.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.RazorAssemblyInfo.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.RazorAssemblyInfo.cs
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.sourcelink.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\scopedcss\bundle\Desafio DotNet.styles.css
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\scopedcss\projectbundle\Desafio DotNet.bundle.scp.css
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\yb92qnjodd-c2tiyv64ts.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\febvyqm3sz-61n19gt1b8.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\6azvtwwhvi-xtxxf3hu2r.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\6fyye6jy16-agp80tu62r.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\xaw9ug3zqm-st1cbwfwo5.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\cnvfi01fcg-unj9p35syc.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\rl7yihahg5-5vj65cig9w.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\c2gzm87at5-q2ku51ktnl.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\hi539qdpz3-2q4vfeazbq.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\098clo65fp-n1oizzvkh6.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\0ud4q31vqb-o371a8zbv2.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\g5g1jzwo95-7na4sro3qu.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\r8jyg6mfx0-jeal3x0ldm.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\kvfnx9n1vz-f8imaxxbri.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\effl6pnkyz-okkk44j0xs.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\eie8561u1o-0wve5yxp74.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\4dc4hzftcb-cwzlr5n8x4.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\69m8p1edsc-npxfuf8dg6.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ocat0xm58h-wmug9u23qg.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\0rz4wdadnm-tey0rigmnh.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\uqe4i3jazz-j75batdsum.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\eetcgw8v1v-16095smhkz.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\r79f5j667g-vy0bq9ydhf.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ij0s4j64cg-b4skse8du6.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ovsnddrtam-ab1c3rmv7g.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\uldxrelhis-u3xrusw2ol.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\98c2yq1pde-56d2bn4wt9.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\li9tgyhuh0-mpyigms19s.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\fts03bzu0d-73kdqttayv.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\t848qdbdhw-bpk8xqwxhs.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\er4cd4y7iw-8inm30yfxf.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\l9fw2wtam4-ve6x09088i.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\f9kvaafpwb-4gxs3k148c.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\jv5n4fkpz0-9b9oa1qrmt.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\kesm6zm141-fctod5rc9n.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\e9f4j1tjnq-l2av4jpuoj.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\445aukzhkm-kbynt5jhd9.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\zmh5sblf80-25iw1kog22.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ln732yusjp-c2nslu3uf3.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\39fb5a5ixs-m39kt2b5c9.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\juve0w9jfc-2lgwfvgpvi.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ctxjy61o48-um2aeqy4ik.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\d8izf7tvg2-wsezl0heh6.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\kzyiixyx0t-o4kw7cc6tf.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\a0kkjywamq-6ukhryfubh.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\bi1lgik3cx-zwph15dxgs.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\b80s71ni0m-u33ctipx7g.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\dyb781g59w-47otxtyo56.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\04nbibgynp-4v8eqarkd7.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\1khgifrln7-356vix0kms.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\umqhlqb8k6-ay5nd8zt9x.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\trnsi0ev12-9oaff4kq20.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\4owkd5glft-pzqfkb6aqo.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\cnol1042sk-b7iojwaux1.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\hfcdgym3bj-x0q3zqp4vz.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ppqrpgnct3-fwhahm2icz.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\2lnxln6oxg-dd6z7egasc.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\eir478yf9w-5pze98is44.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\5921d6bbg5-mlv21k5csn.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\rpki3525mz-5kg0okshw1.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\a4ivuhmtee-5kg0okshw1.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets\msbuild.Desafio DotNet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets\msbuild.Desafio DotNet.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets\msbuild.build.Desafio DotNet.props
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Desafio DotNet.props
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Desafio DotNet.props
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio .88102187.Up2Date
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\refint\Desafio DotNet.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.pdb
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.genruntimeconfig.cache
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\ref\Desafio DotNet.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\Desafio DotNet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Users\elli0t\source\repos\Desafio\desafio\Desafio DotNet\Desafio DotNet\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz

@@ -9,7 +9,28 @@ namespace Desafio_DotNet.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Models.Task> Tarefas { get; set; }
-        public DbSet<Category> Categorias { get; set; }
+        public DbSet<Models.Task> Tasks { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Status> Statuses { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            
+            // Adiciona os Status iniciais
+            modelBuilder.Entity<Status>().HasData(
+                new Status { Id = 1, Nome = "Pendente" },
+                new Status { Id = 2, Nome = "Em progresso" },
+                new Status { Id = 3, Nome = "Concluído" }
+            );
+
+            // Adiciona as Categorias iniciais
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1, Nome = "Trabalho" },
+                new Category { Id = 2, Nome = "Pessoal" },
+                new Category { Id = 3, Nome = "Estudo" }
+            );
+        }
     }
 }

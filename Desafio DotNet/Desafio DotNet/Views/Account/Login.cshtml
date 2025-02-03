@@ -1,5 +1,4 @@
-﻿@page
-@using Desafio_DotNet.Models.ViewModels
+﻿@using Desafio_DotNet.Models.ViewModels
 @model LoginViewModel
 
 @{
@@ -7,6 +6,19 @@
 }
 
 <h2>@ViewData["Title"]</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
 
 <form asp-action="Login" method="post">
     <div class="form-group">

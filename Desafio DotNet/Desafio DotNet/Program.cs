@@ -12,10 +12,18 @@ builder.WebHost.UseIIS();
 // Configurar Entity Framework para usar banco de dados em memória
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseInMemoryDatabase("TarefaDB"));
+
 // Adicionar Identity
-builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = true;          // Exige pelo menos um número
+    options.Password.RequireLowercase = true;      // Exige pelo menos uma letra minúscula
+    options.Password.RequireUppercase = true;      // Exige pelo menos uma letra maiúscula
+    options.Password.RequireNonAlphanumeric = true; // Exige pelo menos um caractere especial (!, @, #, etc.)
+    options.Password.RequiredLength = 8;           // Define o mínimo de caracteres (ex: 8)
+}).AddEntityFrameworkStores<ApplicationDbContext>()
+  .AddDefaultTokenProviders();
+
 
 // Configuração de autenticação por cookie
 builder.Services.ConfigureApplicationCookie(options =>
@@ -35,6 +43,11 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    DbSeeder.SeedData(context);
+}
 
 // Configurar middleware
 app.UseAuthentication(); // Habilita autenticação
@@ -45,7 +58,7 @@ app.UseRouting();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Tarefa}/{action=Index}/{id?}");
+    pattern: "{controller=Account}/{action=Login}");
 
 // Certifica-se de que está mapeando as Razor Pages
 app.MapRazorPages();

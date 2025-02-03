@@ -1,0 +1,70 @@
+﻿@model List<Desafio_DotNet.Models.Task>
+
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+}
+
+<h2>Minhas Tarefas</h2>
+
+<!-- Formulário para adicionar uma nova tarefa -->
+<form asp-controller="Task" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label for="Descricao" class="form-label">Descrição</label>
+        <input type="text" class="form-control" id="Descricao" name="Descricao" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label">Categoria</label>
+        <select class="form-control" id="CategoryId" name="CategoryId">
+            <option value="1">Trabalho</option>
+            <option value="2">Pessoal</option>
+            <option value="3">Estudo</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="DataConclusao" class="form-label">Data de Conclusão</label>
+        <input type="date" class="form-control" id="DataConclusao" name="DataConclusao">
+    </div>
+
+    <div class="mb-3">
+        <label for="StatusId" class="form-label">Status</label>
+        <select class="form-control" id="StatusId" name="StatusId">
+            <option value="1">Pendente</option>
+            <option value="2">Em Andamento</option>
+            <option value="3">Concluído</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+</form>
+<div id="mensagem"></div>
+
+<hr />
+
+<!-- Lista de Tarefas -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Categoria</th>
+            <th>Status</th>
+            <th>Data de Conclusão</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarefa in Model)
+        {
+            <tr>
+                <td>@tarefa.Descricao</td>
+                <td>@tarefa.Categoria.Nome</td>
+                <td>@(tarefa.Status.Nome)</td>
+                <td>@tarefa.DataConclusao?.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@tarefa.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@tarefa.Id" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

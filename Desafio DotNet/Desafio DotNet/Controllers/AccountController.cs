@@ -26,9 +26,9 @@ namespace Desafio_DotNet.Controllers
 
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
             if (result.Succeeded)
-                return RedirectToAction("Index", "Tarefa");
+                return RedirectToAction("Tasks", "Task");
 
-            ModelState.AddModelError("", "Login inválido.");
+            TempData["ErrorMessage"] = "Login inválido! Tente novamente!";
             return View(model);
         }
 
@@ -40,17 +40,17 @@ namespace Desafio_DotNet.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var user = new User { UserName = model.Email, Email = model.Email, NomeCompleto = model.NomeCompleto };
+            var user = new User { UserName = model.Email, Email = model.Email};
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Tarefa");
+                TempData["SuccessMessage"] = "Registro realizado com sucesso! Faça login para continuar.";
+                return RedirectToAction("Login", "Account");
             }
 
             foreach (var error in result.Errors)
-                ModelState.AddModelError("", error.Description);
+                ModelState.AddModelError(model.Password, error.Description);
 
             return View(model);
         }

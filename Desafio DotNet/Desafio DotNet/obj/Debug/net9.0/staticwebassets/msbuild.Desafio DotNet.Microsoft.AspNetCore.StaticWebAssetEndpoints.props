@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Desafio DotNet.5kg0okshw1.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5kg0okshw1"},{"Name":"integrity","Value":"sha256-1Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY="},{"Name":"label","Value":"_content/Desafio DotNet/Desafio DotNet.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 16:45:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:49:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Desafio DotNet/Desafio DotNet.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Desafio DotNet.5kg0okshw1.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 16:45:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221Ts4FyTuXMo98CSKiRlcloVTWT1sIG/v9fs8qwXv\u002B\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:49:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Desafio DotNet/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

@@ -5,6 +5,5 @@ namespace Desafio_DotNet.Models
 {
     public class User : IdentityUser
     {
-        public string NomeCompleto { get; set; }
     }
 }

@@ -8,25 +8,24 @@ namespace Desafio_DotNet.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Required(ErrorMessage = "O status é obrigatório")]
-        public string Status { get; set; }
-
-        [Required(ErrorMessage = "A categoria é obrigatória")]
-        public Category Categoria { get; set; }
-
-        [Required(ErrorMessage = "A data de conclusão é obrigatória")]
-        public DateTime DataConclusao { get; set; }
+        public string Descricao { get; set; }
+        public int CategoryId { get; set; }
+        public int StatusId { get; set; }
+        public DateTime? DataConclusao { get; set; }
+        public virtual Category Categoria { get; set; }
+        public virtual Status Status { get; set; } // false = Pendente, true = Concluído
 
         // Construtor padrão
         public Task() { }
 
         // Construtor parametrizado
-        public Task(string status, Category categoria, DateTime dataConclusao)
+        public Task(Status status, Category categoria, DateTime dataConclusao, int categoryId, int statusId)
         {
             Status = status;
             Categoria = categoria;
             DataConclusao = dataConclusao;
+            CategoryId = categoryId;
+            StatusId = statusId;
         }
     }
 }

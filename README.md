@@ -17,3 +17,9 @@ Microsoft.AspNetCore.Identity.UI 9.0.1
 ---------- INFORMAÇÕES ÚTEIS DO PROJETO -------------
 Este projeto foi feito com um banco de dados em memoria, ou seja, a cada vez que a
 aplicação for encerrada, todos os dados serão perdidos!
+
+---------- INFORMAÇÕES ÚTEIS DO PROJETO -------------
+Funcionalidades Implementadas: 
+Login
+Logout
+Tarefas (criação, edição e exclusão)

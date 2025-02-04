@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cp50gqxdkZfJr++JaRCmorxVx48YmUSfSvnDaCQDz8M=",
+  "Hash": "huIiCxszT/LFvKyiyoX9BLFd2mdODl61HOprAb0Ipl4=",
   "Source": "Desafio DotNet",
   "BasePath": "_content/Desafio DotNet",
   "Mode": "Default",
@@ -3755,12 +3755,12 @@
       "OriginalItemSpec": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-c2tiyv64ts.gz",
+      "Identity": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-th0bmm1sit.gz",
       "SourceId": "Desafio DotNet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Desafio DotNet",
-      "RelativePath": "css/site#[.{fingerprint=c2tiyv64ts}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=th0bmm1sit}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3769,8 +3769,8 @@
       "RelatedAsset": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ohgjeh9gg7",
-      "Integrity": "PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=",
+      "Fingerprint": "xm8vfslrh2",
+      "Integrity": "h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\css\\site.css"
@@ -3979,8 +3979,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "th0bmm1sit",
+      "Integrity": "vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5227,167 +5227,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-c2tiyv64ts.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004237288136"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "235"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.c2tiyv64ts.css.gz",
-      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-c2tiyv64ts.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "235"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\elli0t\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.1\\staticwebassets\\css\\site.css",
       "Selectors": [],
@@ -5426,12 +5265,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-c2tiyv64ts.gz",
+      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-th0bmm1sit.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004237288136"
+          "Quality": "0.001626016260"
         }
       ],
       "ResponseHeaders": [
@@ -5441,15 +5280,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "614"
         },
         {
           "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
+          "Value": "\"h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5469,13 +5308,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "W/\"vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs="
         }
       ]
     },
@@ -5490,7 +5329,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1819"
         },
         {
           "Name": "Content-Type",
@@ -5498,11 +5337,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5512,13 +5351,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-c2tiyv64ts.gz",
+      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-th0bmm1sit.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5527,7 +5366,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "614"
         },
         {
           "Name": "Content-Type",
@@ -5535,11 +5374,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
+          "Value": "\"h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:20:43 GMT"
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5557,7 +5396,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8="
+          "Value": "sha256-h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.th0bmm1sit.css",
+      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-th0bmm1sit.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001626016260"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "614"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th0bmm1sit"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.th0bmm1sit.css",
+      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th0bmm1sit"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vyrmWkscqKifcgLMa3qh90qTOYDT8Gr3Kqaz5Yo9PEs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.th0bmm1sit.css.gz",
+      "AssetFile": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\obj\\Debug\\net9.0\\compressed\\yb92qnjodd-th0bmm1sit.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "614"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 21:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th0bmm1sit"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h1PJD7G5vwWJBnQ0CvUPCjucv9qvonve7dktClysc8o="
         }
       ]
     },
@@ -5586,7 +5586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5647,7 +5647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5692,7 +5692,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5747,7 +5747,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5808,7 +5808,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5853,7 +5853,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5908,7 +5908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5961,7 +5961,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5998,7 +5998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6045,7 +6045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6098,7 +6098,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6135,7 +6135,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 14:49:41 GMT"
+          "Value": "Tue, 04 Feb 2025 21:51:02 GMT"
         },
         {
           "Name": "Cache-Control",

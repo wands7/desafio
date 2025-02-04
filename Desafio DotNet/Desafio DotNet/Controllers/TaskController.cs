@@ -127,7 +127,7 @@ namespace Desafio_DotNet.Controllers
                 _context.Tasks.Remove(tarefa);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Tasks");
         }
 
         private bool TarefaExists(int id)

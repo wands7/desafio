@@ -58,6 +58,8 @@ namespace Desafio_DotNet.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
+            Response.Cookies.Delete(".AspNetCore.Identity.Application"); // Remove o cookie de autenticação
+            HttpContext.Session.Clear(); // Limpa a sessão
             return RedirectToAction("Login");
         }
     }

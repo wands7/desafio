@@ -1,19 +1,19 @@
 using Desafio_DotNet.Data;
 using Desafio_DotNet.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-// Adicionar serviços
 builder.Services.AddRazorPages();
 builder.WebHost.UseIIS();
 
-// Configurar Entity Framework para usar banco de dados em memória
+// Entity Framework banco de dados em memória
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseInMemoryDatabase("TarefaDB"));
 
-// Adicionar Identity
+// Identity
 builder.Services.AddIdentity<User, IdentityRole>(options =>
 {
     options.Password.RequireDigit = true;          // Exige pelo menos um número
@@ -25,7 +25,7 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
   .AddDefaultTokenProviders();
 
 
-// Configuração de autenticação por cookie
+// Autenticação por cookie
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Account/Login";
@@ -33,14 +33,23 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        // Configurações do cookie
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+    });
 
+builder.Services.AddSession(options =>
+{
+    // Configurações de sessão (se necessário)
+});
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 using (var scope = app.Services.CreateScope())
@@ -49,13 +58,12 @@ using (var scope = app.Services.CreateScope())
     DbSeeder.SeedData(context);
 }
 
-// Configurar middleware
-app.UseAuthentication(); // Habilita autenticação
-app.UseAuthorization(); // Habilita autorização
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Login}");

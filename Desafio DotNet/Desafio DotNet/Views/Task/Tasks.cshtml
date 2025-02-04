@@ -4,6 +4,27 @@
     ViewData["Title"] = "Lista de Tarefas";
 }
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessage" class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+    <script>
+        setTimeout(function() {
+            var messageDiv = document.getElementById("successMessage");
+            if (messageDiv) {
+                messageDiv.style.display = "none";
+            }
+        }, 5000);
+    </script>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
 <h2>Minhas Tarefas</h2>
 
 <!-- Formulário para adicionar uma nova tarefa -->
@@ -16,9 +37,11 @@
     <div class="mb-3">
         <label for="CategoryId" class="form-label">Categoria</label>
         <select class="form-control" id="CategoryId" name="CategoryId">
-            <option value="1">Trabalho</option>
-            <option value="2">Pessoal</option>
-            <option value="3">Estudo</option>
+            <option value="">Selecione uma categoria</option>
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <option value="@categoria.Id">@categoria.Nome</option>
+            }
         </select>
     </div>
 
@@ -30,9 +53,11 @@
     <div class="mb-3">
         <label for="StatusId" class="form-label">Status</label>
         <select class="form-control" id="StatusId" name="StatusId">
-            <option value="1">Pendente</option>
-            <option value="2">Em Andamento</option>
-            <option value="3">Concluído</option>
+            <option value="">Selecione um status</option>
+            @foreach (var status in ViewBag.Statuses)
+            {
+                <option value="@status.Id">@status.Nome</option>
+            }
         </select>
     </div>
     <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
@@ -58,8 +83,8 @@
             <tr>
                 <td>@tarefa.Descricao</td>
                 <td>@tarefa.Categoria.Nome</td>
-                <td>@(tarefa.Status.Nome)</td>
-                <td>@tarefa.DataConclusao?.ToString("dd/MM/yyyy")</td>
+                <td>@tarefa.Status.Nome</td>
+                <td>@tarefa.DataConclusao.ToString("dd/MM/yyyy")</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@tarefa.Id" class="btn btn-warning btn-sm">Editar</a>
                     <a asp-action="Delete" asp-route-id="@tarefa.Id" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a>

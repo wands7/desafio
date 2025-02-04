@@ -18,19 +18,15 @@ namespace Desafio_DotNet.Data
         {
             base.OnModelCreating(modelBuilder);
             
-            // Adiciona os Status iniciais
-            modelBuilder.Entity<Status>().HasData(
-                new Status { Id = 1, Nome = "Pendente" },
-                new Status { Id = 2, Nome = "Em progresso" },
-                new Status { Id = 3, Nome = "Concluído" }
-            );
+            modelBuilder.Entity<Models.Task>()
+                .HasOne(t => t.Categoria)
+                .WithMany(c => c.Tasks)
+                .HasForeignKey(t => t.CategoryId); 
 
-            // Adiciona as Categorias iniciais
-            modelBuilder.Entity<Category>().HasData(
-                new Category { Id = 1, Nome = "Trabalho" },
-                new Category { Id = 2, Nome = "Pessoal" },
-                new Category { Id = 3, Nome = "Estudo" }
-            );
+            modelBuilder.Entity<Models.Task>()
+                .HasOne(t => t.Status)
+                .WithMany(s => s.Tasks)
+                .HasForeignKey(t => t.StatusId);
         }
     }
 }

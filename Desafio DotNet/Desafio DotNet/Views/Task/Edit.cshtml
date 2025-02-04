@@ -1,0 +1,48 @@
+﻿@model Desafio_DotNet.Models.Task
+
+@{
+    ViewData["Title"] = "Editar Tarefa";
+}
+
+<h2>Editar Tarefa</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="Descricao" class="form-label">Descrição</label>
+        <input type="text" class="form-control" asp-for="Descricao" required>
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label">Categoria</label>
+        <select class="form-control" id="CategoryId" asp-for="CategoryId" name="CategoryId">
+            <option value="">Selecione uma categoria</option>
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <option value="@categoria.Id">@categoria.Nome</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="StatusId" class="form-label">Status</label>
+        <select class="form-control" id="StatusId" asp-for="StatusId" name="StatusId">
+            <option value="">Selecione um status</option>
+            @foreach (var status in ViewBag.Status)
+            {
+                <option value="@status.Id">@status.Nome</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="DataConclusao" class="form-label">Data de Conclusão</label>
+        <input type="date" class="form-control" asp-for="DataConclusao">
+        <span asp-validation-for="DataConclusao" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar Alterações</button>
+    <a asp-action="Tasks" class="btn btn-secondary">Cancelar</a>
+</form>

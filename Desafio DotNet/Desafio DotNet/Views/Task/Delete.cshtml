@@ -1,0 +1,22 @@
+﻿@model Desafio_DotNet.Models.Task
+
+@{
+    ViewData["Title"] = "Excluir Tarefa";
+}
+
+<h2>Excluir Tarefa</h2>
+
+<p>Tem certeza de que deseja excluir a tarefa abaixo?</p>
+
+<ul>
+    <li><strong>Descrição:</strong> @Model.Descricao</li>
+    <li><strong>Categoria:</strong> @Model.Categoria.Nome</li>
+    <li><strong>Status:</strong> @Model.Status.Nome</li>
+    <li><strong>Data de Conclusão:</strong> @Model.DataConclusao.ToString("dd/MM/yyyy")</li>
+</ul>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+    <a asp-action="Tasks" class="btn btn-secondary">Cancelar</a>
+</form>

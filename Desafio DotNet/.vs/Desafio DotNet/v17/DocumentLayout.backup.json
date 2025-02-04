@@ -3,24 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\task\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\task\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\task\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\task\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elli0t\\AppData\\Local\\SourceServer\\22c3110edc3014c68251bb4422ffd24d33c250d3662e88623ef3118361a6ed1c\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +54,12 @@
       "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|solutionrelative:desafio dotnet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8133B83A-199E-41BC-9041-401B3A586858}|Desafio DotNet\\Desafio DotNet.csproj|c:\\users\\elli0t\\source\\repos\\desafio\\desafio\\desafio dotnet\\desafio dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -102,17 +113,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Desafio DotNet\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwBwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T16:57:08.202Z",
               "IsPinned": true,
@@ -120,51 +131,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Desafio DotNet\\Views\\Task\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T14:34:58.698Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Tasks.cshtml",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Task\\Tasks.cshtml",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Tasks.cshtml",
+              "RelativeToolTip": "Desafio DotNet\\Views\\Task\\Tasks.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T12:52:50.372Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Desafio DotNet\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwDEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T15:29:28.542Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
+              "RelativeToolTip": "Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:06:47.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\AppData\\Local\\SourceServer\\22c3110edc3014c68251bb4422ffd24d33c250d3662e88623ef3118361a6ed1c\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\22c3110edc3014c68251bb4422ffd24d33c250d3662e88623ef3118361a6ed1c\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\elli0t\\AppData\\Local\\SourceServer\\22c3110edc3014c68251bb4422ffd24d33c250d3662e88623ef3118361a6ed1c\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\22c3110edc3014c68251bb4422ffd24d33c250d3662e88623ef3118361a6ed1c\\Desafio DotNet\\Desafio DotNet\\Controllers\\TaskController.cs [Somente Leitura]",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDIAAAAIAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T16:59:01.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T14:33:23.343Z",
+              "EditorCaption": " [Somente Leitura]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\Task.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Models\\Task.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\Task.cs",
               "RelativeToolTip": "Desafio DotNet\\Models\\Task.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T15:27:17.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\User.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Models\\User.cs",
@@ -177,39 +224,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\Category.cs",
               "RelativeToolTip": "Desafio DotNet\\Models\\Category.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T15:26:43.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Program.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Program.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Program.cs",
               "RelativeToolTip": "Desafio DotNet\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T15:39:06.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Desafio DotNet\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-01T17:02:47.364Z",
               "EditorCaption": ""
@@ -217,32 +264,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tasks.cshtml",
-              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Tasks.cshtml",
-              "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Task\\Tasks.cshtml",
-              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Tasks.cshtml",
-              "RelativeToolTip": "Desafio DotNet\\Views\\Task\\Tasks.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAApwDcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T12:52:50.372Z",
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "Desafio DotNet\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:31:02.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Task\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Task\\Delete.cshtml",
+              "RelativeToolTip": "Desafio DotNet\\Views\\Task\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T14:35:10.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Desafio DotNet\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T15:37:33.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\Status.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Models\\Status.cs",
@@ -255,33 +315,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "Desafio DotNet\\Data\\DbSeeder.cs",
-              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Data\\DbSeeder.cs",
-              "RelativeToolTip": "Desafio DotNet\\Data\\DbSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:31:02.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
-              "RelativeDocumentMoniker": "Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
-              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
-              "RelativeToolTip": "Desafio DotNet\\Models\\ViewModels\\TaskViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:06:47.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Desafio DotNet\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T16:59:01.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Models\\ViewModels\\RegisterViewModel.cs",
@@ -289,12 +335,11 @@
               "RelativeToolTip": "Desafio DotNet\\Models\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T16:59:25.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T16:59:25.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
@@ -302,12 +347,11 @@
               "RelativeToolTip": "Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-03T14:50:46.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T14:50:46.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -315,12 +359,11 @@
               "RelativeToolTip": "Desafio DotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "ViewState": "AgIAACITAAAAAAAAAAAnwDETAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-03T14:51:33.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T14:51:33.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Account\\Register.cshtml",
@@ -328,12 +371,11 @@
               "RelativeToolTip": "Desafio DotNet\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAawDQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T17:03:45.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T17:03:45.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Shared\\_Layout.cshtml",
@@ -341,12 +383,11 @@
               "RelativeToolTip": "Desafio DotNet\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:00:38.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T13:00:38.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Desafio DotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -354,12 +395,11 @@
               "RelativeToolTip": "Desafio DotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T17:05:11.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T17:05:11.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Desafio DotNet\\Controllers\\HomeController.cs",
@@ -367,12 +407,11 @@
               "RelativeToolTip": "Desafio DotNet\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:37:51.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T12:37:51.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Desafio DotNet\\Properties\\launchSettings.json",
@@ -380,12 +419,11 @@
               "RelativeToolTip": "Desafio DotNet\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-01T17:12:59.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T17:12:59.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\appsettings.json",
               "RelativeDocumentMoniker": "Desafio DotNet\\appsettings.json",
@@ -393,12 +431,11 @@
               "RelativeToolTip": "Desafio DotNet\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-02T02:54:42.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T02:54:42.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Desafio DotNet.csproj",
               "DocumentMoniker": "C:\\Users\\elli0t\\source\\repos\\Desafio\\desafio\\Desafio DotNet\\Desafio DotNet\\Desafio DotNet.csproj",
               "RelativeDocumentMoniker": "Desafio DotNet\\Desafio DotNet.csproj",

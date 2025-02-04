@@ -2,6 +2,7 @@
 using Desafio_DotNet.Models;
 using Desafio_DotNet.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
@@ -32,48 +33,42 @@ namespace Desafio_DotNet.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Models.Task model)
-        {
-            var category = await _context.Categories.FindAsync(model.CategoryId);
-            if (category == null)
+        {            
+            if(ModelState.IsValid)
             {
-                ModelState.AddModelError("CategoryId", "Categoria inválida.");
-                return View(model);
-            }
-            
-            var status = await _context.Statuses.FindAsync(model.StatusId);
-            if (status == null)
-            {
-                ModelState.AddModelError("StatusId", "Status inválido.");
-                return View(model); 
-            }
-            
-            model.Status = status;
-            model.Categoria = category;
+                _context.Tasks.Add(model);                
+                await _context.SaveChangesAsync();
 
-            if (ModelState.IsValid)
-            {
-                _context.Tasks.Add(model);
                 TempData["SuccessMessage"] = "Tarefa adicionada com sucesso!";
                 return RedirectToAction("Tasks");
             }
+            TempData["ErrorMessage"] = "Erro ao adicionar Tarefa!";
             return RedirectToAction("Tasks");
         }
 
         // GET: Lista todas as tarefas
         public IActionResult Tasks()
         {
-           var tasks = _context.Tasks.Include(t => t.Categoria).ToList();
+            ViewBag.Categorias = _context.Categories.ToList();
+            ViewBag.Statuses = _context.Statuses.ToList();
+
+            var tasks = _context.Tasks
+                        .Include(t => t.Categoria)
+                        .Include(t => t.Status)
+                        .ToList();
+
             return View("Tasks", tasks);
         }
 
         // EXIBIR formulário de edição
         public async Task<IActionResult> Edit(int id)
         {
-            var tarefa = await _context.Tasks.FindAsync(id);
+            var tarefa = await _context.Tasks.Include(t => t.Categoria).Include(t => t.Status).FirstOrDefaultAsync(t => t.Id == id);
             if (tarefa == null)
                 return NotFound();
-
+           
             ViewBag.Categorias = _context.Categories.ToList();
+            ViewBag.Status = _context.Statuses.ToList();
             return View(tarefa);
         }
 
@@ -89,22 +84,18 @@ namespace Desafio_DotNet.Controllers
             {
                 try
                 {
-                    tarefa.Categoria = await _context.Categories.FindAsync(tarefa.Categoria.Id);
                     _context.Update(tarefa);
                     await _context.SaveChangesAsync();
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!TarefaExists(tarefa.Id))
-                        return NotFound();
-                    else
-                        throw;
+                    TempData["ErrorMessage"] = "Erro ao editar tarefa!";
+                    return RedirectToAction("Tasks");
+                    throw;
                 }
-                return RedirectToAction(nameof(Index));
             }
-
-            ViewBag.Categorias = _context.Categories.ToList();
-            return View(tarefa);
+            TempData["SuccessMessage"] = "Tarefa editada com sucesso!";
+            return RedirectToAction("Tasks");
         }
 
         // EXIBIR formulário de exclusão
@@ -113,11 +104,16 @@ namespace Desafio_DotNet.Controllers
             var tarefa = await _context.Tasks
                 .Include(t => t.Categoria)
                 .FirstOrDefaultAsync(t => t.Id == id);
+                        
 
             if (tarefa == null)
                 return NotFound();
 
-            return View(tarefa);
+            _context.Remove(tarefa);
+            await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = "Tarefa excluída com sucesso!";
+
+            return RedirectToAction("Tasks");
         }
 
         // EXCLUIR uma tarefa

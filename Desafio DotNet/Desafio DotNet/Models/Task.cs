@@ -1,31 +1,31 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Desafio_DotNet.Models
 {
     [Authorize]
     public class Task
     {
+        
         [Key]
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "A descrição é obrigatória.")]
         public string Descricao { get; set; }
-        public int CategoryId { get; set; }
+
+        [Required(ErrorMessage = "O status é obrigatório.")]
         public int StatusId { get; set; }
-        public DateTime? DataConclusao { get; set; }
-        public virtual Category Categoria { get; set; }
-        public virtual Status Status { get; set; } // false = Pendente, true = Concluído
 
-        // Construtor padrão
-        public Task() { }
+        [ForeignKey("StatusId")]
+        public virtual Status? Status { get; set; }
 
-        // Construtor parametrizado
-        public Task(Status status, Category categoria, DateTime dataConclusao, int categoryId, int statusId)
-        {
-            Status = status;
-            Categoria = categoria;
-            DataConclusao = dataConclusao;
-            CategoryId = categoryId;
-            StatusId = statusId;
-        }
+        [Required(ErrorMessage = "A categoria é obrigatória.")]
+        public int CategoryId { get; set; }
+
+        [ForeignKey("CategoryId")]
+        public virtual Category? Categoria { get; set; }
+
+        public DateTime DataConclusao { get; set; }
     }
 }

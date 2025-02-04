@@ -11,6 +11,8 @@ namespace Desafio_DotNet.Models
         [StringLength(50, ErrorMessage = "O nome do status deve ter no máximo 15 caracteres")]
         public string Nome { get; set; }
 
+        public ICollection<Models.Task> Tasks { get; set; }
+
         // Construtor padrão
         public Status() { }
 

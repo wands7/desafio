@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
 
 namespace Desafio_DotNet.Models.ViewModels
 {
@@ -13,24 +14,24 @@ namespace Desafio_DotNet.Models.ViewModels
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Selecione um status.")]
-        public Status Status { get; set; } // Ex: "Pendente", "Em andamento", "Concluído"
+        public List<SelectListItem> Status { get; set; } // Ex: "Pendente", "Em andamento", "Concluído"
 
         [Required(ErrorMessage = "A data de conclusão é obrigatória.")]
         [DataType(DataType.Date)]
         public DateTime CompletionDate { get; set; }
-
-        public int CategoryId { get; set; } // Ex: "Trabalho", "Escola", "Pessoal"
+        [Required(ErrorMessage = "Selecione uma Categoria.")]
+        public List<SelectListItem> Category { get; set; } // Ex: "Trabalho", "Escola", "Pessoal"
 
         public TaskViewModel() { }
 
-        public TaskViewModel(int id, string title, string description, Status status, DateTime completionDate, int categoryId)
+        public TaskViewModel(int id, string title, string description, List<SelectListItem> status, DateTime completionDate, List<SelectListItem> category)
         {
             Id = id;
             Title = title;
             Description = description;
             Status = status;
             CompletionDate = completionDate;
-            CategoryId = categoryId;
+            Category = category;
         }
     }
 }

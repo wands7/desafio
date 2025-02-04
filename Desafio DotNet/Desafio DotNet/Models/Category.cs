@@ -11,6 +11,8 @@ namespace Desafio_DotNet.Models
         [StringLength(50, ErrorMessage = "O nome da categoria deve ter no máximo 50 caracteres")]
         public string Nome { get; set; }
 
+        public ICollection<Models.Task> Tasks { get; set; }
+
         // Construtor padrão
         public Category() { }
 
